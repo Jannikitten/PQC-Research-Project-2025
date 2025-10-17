@@ -1,5 +1,5 @@
 # Post-Quantum Cryptography Research Project
-This repository contains C and C++ code for the research project, Developer-centred security challenges in post-quantum cryptographic APIs. The project was done at the IT University in Copenhagen under supervision of Oksana Kulyk in 2025. Find the paper in the repository.
+This repository contains C and C++ code for the research project, Developer-centred security challenges in post-quantum cryptographic APIs. The project was done at the IT University in Copenhagen under supervision of Oksana Kulyk in 2025. Find the paper in the repository (Report.pdf).
 
 The following cryptographic APIs were used
 
@@ -71,7 +71,7 @@ This project uses CMake to manage its build process. The CMakeLists.txt file is 
 
     - If you still encounter issues, try File -> Invalidate Caches / Restart....
 
-If you are building from the command line:
+## If you are building from the command line:
 
 1. Create a build directory:
 
@@ -86,7 +86,7 @@ cd build
 cmake ..
 ```
 
-(If your crypto_libs is not in $HOME/crypto_libs, you would specify it: cmake .. -DCRYPTO_LIBS_ROOT=/path/to/your/crypto_libs)
+(If your crypto_libs is not in $HOME/crypto_libs, you can specify it: cmake .. -DCRYPTO_LIBS_ROOT=/path/to/your/crypto_libs)
 
 ## Build the project:
 
